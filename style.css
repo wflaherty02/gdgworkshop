@@ -1,0 +1,68 @@
+:root{
+    --primary: blue
+    --spacing: 4rem
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2cm
+}
+
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+
+h1{
+    margin-bottom: 2rem;
+    font-size: clamp(2rem, 5vw, 6rem);
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+h2{
+    margin-bottom: var(--spacing);
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.heading-highlight {
+    color: var(--primary);
+}
+
+.button {
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary);    
+}
+
+.about {
+    padding: var(--spacing);
+    color: white;
+    background-color: var(--primary)
+}
+
+.about-img{
+    max-width: 350px;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1 rem;
+    line-height: 1.4rem;
+    margin-bottom: 1em;
+}
